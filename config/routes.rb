@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
   resources :posts
 
-  root 'posts#find'
+  root 'posts#index'
 
 end
